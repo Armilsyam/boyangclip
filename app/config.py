@@ -6,5 +6,6 @@ OUTPUT_DIR = BASE_DIR / "data" / "output"
 TEMP_DIR = BASE_DIR / "data" / "temp"
 
 MODEL_SIZE = "small"  # small = ringan, medium = lebih akurat tapi lebih berat
-MAX_CLIP_SECONDS = 45
+MIN_CLIP_SECONDS = 10
+MAX_CLIP_SECONDS = 60
 TARGET_ASPECT = "9:16"
